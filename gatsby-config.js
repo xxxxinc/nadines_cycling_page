@@ -2,15 +2,10 @@ module.exports = {
   pathPrefix: process.env.PATH_PREFIX || '/',
   siteMetadata: {
     siteTitle: 'Cycling Page',
-    siteUrl: 'https://yihong.run',
-    logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTtc69JxHNcmN1ETpMUX4dozAgAN6iPjWalQ&usqp=CAU',
-    description: 'Personal site and blog',
-    navLinks: [
-      {
-        name: 'About',
-        url: 'https://github.com/xxxxinc/cycling_page/blob/master/README.md',
-      },
-    ],
+    siteUrl: '',
+    logo: '',
+    description: 'Nadines Riding record.',
+    navLinks: [],
   },
   plugins: [
     'gatsby-transformer-json',
