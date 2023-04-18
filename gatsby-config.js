@@ -2,7 +2,7 @@ module.exports = {
   pathPrefix: process.env.PATH_PREFIX || '/',
   siteMetadata: {
     siteTitle: 'Cycling Page',
-    siteUrl: '',
+    siteUrl: 'https://nadines-cycling-page.vercel.app/',
     logo: '',
     description: 'Nadines Riding record.',
     navLinks: [],
