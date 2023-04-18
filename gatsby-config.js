@@ -5,7 +5,12 @@ module.exports = {
     siteUrl: 'https://nadines-cycling-page.vercel.app/',
     logo: '',
     description: 'Nadines Riding record.',
-    navLinks: [],
+    navLinks: [
+      {
+        name: 'About',
+        url: 'https://github.com/xxxxinc/cycling_page/blob/master/README.md',
+      },
+    ],
   },
   plugins: [
     'gatsby-transformer-json',
